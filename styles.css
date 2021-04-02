@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.main{
+    position: absolute;
+    top: 20%;
+    /* left: 33%; */
+    width: 100%;
+    /* justify-content: center;
+    margin: auto;
+    justify-content: center;
+    align-content: center; 
+    align-items: center; */
+    text-align: center;
+    /* background-color: lightgrey; */
+    background-size: 50% auto;
+    /* opacity: 85%; */
+    padding: 30px;
+    
+}
+.weather-body{
+    padding: 5px;
+    display: none;
+}
+.city,.date,.temp,.max-min,.weather,.img{
+    padding: 8px;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.middle h1{
+    color: white;
+    padding: 20px;
+}
+.temp{
+    font-size: 4em;
+    font-family:cursive;
+    /* color:red; */
+}
+
+input[type='text']{
+    padding: 10px;
+    width: 25%;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+input[type='button']{
+    padding: 10px;
+    width: 110px;
+    border: none;
+    border-radius: 10px;
+    background-color:tomato;
+    color: white;
+    cursor: pointer;
+}
+input[type='button']:hover{
+    background-color: red;
+}
+
+
+
+/* api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key} */
+
+/* 50b81b73775ede9d2f16c0985e633a8b */
