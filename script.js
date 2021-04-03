@@ -38,9 +38,6 @@ function showWeatherReport(weather) {
     else if (document.getElementById("weathers").textContent == 'Thudnerstorm') {
         document.body.style.backgroundImage = "url(thunderstorm.jpg)";
     }
-    else {
-        document.body.style.backgroundImage = "url(1.jpg)";
-    }
 
 
 
